@@ -136,14 +136,6 @@ nav ul li a {
   font-family: 'Poppins', sans-serif;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 50px;
-}
-
 .container, .footer-container {
   width: 1200px;
   margin: 0 auto;
@@ -185,13 +177,6 @@ nav ul li a {
   gap: 15px;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
 .contact-form button {
   padding: 10px 20px;
   border: none;
@@ -201,4 +186,51 @@ nav ul li a {
   cursor: pointer;
   font-weight: bold;
   width: fit-content;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.contact-info, .contact-form {
+  flex: 1; 
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto 0; 
+  padding: 0 20px;
+  border-top: 1px solid #444; 
+  padding-top: 20px;
+}
+
+
+.last nav ul {
+  display: flex;            
+  list-style: none;         
+  margin: 0;
+  padding: 0;
+  gap: 20px;                
+}
+
+
+.last nav ul li a {
+  display: flex;            
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  gap: 5px;                 
+}
+
+
+.last nav ul li a img {
+  height: 20px;              
+  width: auto;
 }
