@@ -133,10 +133,11 @@ nav ul li a {
   background-color: #0733ff;
   color: #fff;
   padding: 50px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.container, .footer-container {
+.container,
+.footer-container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -196,8 +197,9 @@ nav ul li a {
   gap: 50px;
 }
 
-.contact-info, .contact-form {
-  flex: 1; 
+.contact-info,
+.contact-form {
+  flex: 1;
 }
 
 .last {
@@ -205,32 +207,29 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 30px auto 0; 
+  margin: 30px auto 0;
   padding: 0 20px;
-  border-top: 1px solid #444; 
+  border-top: 1px solid #444;
   padding-top: 20px;
 }
 
-
 .last nav ul {
-  display: flex;            
-  list-style: none;         
+  display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
-  gap: 20px;                
+  gap: 20px;
 }
 
-
 .last nav ul li a {
-  display: flex;            
+  display: flex;
   align-items: center;
   text-decoration: none;
   color: #fff;
-  gap: 5px;                 
+  gap: 5px;
 }
 
-
 .last nav ul li a img {
-  height: 20px;              
+  height: 20px;
   width: auto;
 }
